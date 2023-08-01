@@ -69,7 +69,7 @@ alias dkill="pgrep \"Docker\" | xargs kill -9"
 
 alias ta='tmux attach -t'
 alias td='tmux -detach'
-alias ta='tmux new -s'
+alias tn='tmux new -s'
 
 alias s='source ~/.zshrc'
 

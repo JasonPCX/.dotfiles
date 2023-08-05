@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define your list of packages
-PACKAGES="bat btop catimg chromium cmake code fzf gh gimp gstreamer1-plugin-openh264 httpie krita lsd neofetch neovim openh264 scrub vlc xclip zsh dnf-plugins-core tmux"
+PACKAGES="bat btop catimg chromium cmake code fzf gh gimp gstreamer1-plugin-openh264 httpie krita lsd neofetch neovim openh264 scrub vlc xclip zsh dnf-plugins-core tmux util-linux-user"
 
 # Function to check which package manager is available
 find_package_manager() {

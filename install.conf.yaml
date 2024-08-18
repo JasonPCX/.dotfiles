@@ -11,7 +11,7 @@
       recursive: true
 
 - link:
-    ~/.profile: dotconf/profile
+    # ~/.profile: dotconf/profile
     ~/.gitconfig: dotconf/gitconfig
     ~/.tmux.conf: dotconf/tmux.conf
     ~/.zshenv: dotconf/zshenv
@@ -27,12 +27,12 @@
 - create:
     - ~/Workspace
 
-- shell:
-  - [chmod +x ./bootstrap.sh, Making  bootstrap.sh script executable]
-  - 
-    command: ./bootstrap.sh
-    stdout: true
-    stderr: true
-    description: Installing a list of packages listed in bootstrap.sh
-  - chsh -s $(which zsh)
-  - [chsh -s $(which zsh), Making zsh the default shell]
+# - shell:
+ #  - [chmod +x ./bootstrap.sh, Making  bootstrap.sh script executable]
+  # - 
+   #  command: ./bootstrap.sh
+    # stdout: true
+    # stderr: true
+    # description: Installing a list of packages listed in bootstrap.sh
+  # - chsh -s $(which zsh)
+  # - [chsh -s $(which zsh), Making zsh the default shell]
